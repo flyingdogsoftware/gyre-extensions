@@ -18,8 +18,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
           
       - run: npm ci
-        working-directory: gyre_entry
+      - run: npm run build
       - run: npm publish --provenance --access public
-        working-directory: gyre_entry
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN }}
