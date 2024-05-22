@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@fds-components/fds-gradient-slider": "^1.0.6"
+  }
+}
