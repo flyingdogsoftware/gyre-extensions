@@ -2,7 +2,7 @@
   "name": "@fds-components/fds-gyre-extensions",
   "version": "1.0.1",
   "scripts": {
-    "build": "cp -rp node_modules/@fds-components dist/node_modules/@fds-components"
+    "build": "mkdir -p dist/node_modules/@fds-components && cp -rp node_modules/@fds-components dist/node_modules/@fds-components"
   },
   "files": [
     "dist/*.js*",
