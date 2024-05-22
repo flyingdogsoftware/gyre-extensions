@@ -4,11 +4,6 @@
   "scripts": {
     "build": "mkdir -p dist/node_modules/@fds-components && cp -rp node_modules/@fds-components dist/node_modules/@fds-components"
   },
-  "files": [
-    "dist/*.js*",
-    "dist/*.json*",
-    "bin/*.js*"
-  ],
   "dependencies": {
     "@fds-components/fds-gradient-editor": "^1.0.5",
     "@fds-components/fds-gradient-slider": "^1.0.8"
