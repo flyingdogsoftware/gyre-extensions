@@ -2,7 +2,7 @@
   "name": "@fds-components-public/fds-gyre-extensions",
   "version": "1.0.2",
   "scripts": {
-    "build": "mkdir -p dist/node_modules/@fds-components && cp -rp node_modules/@fds-components dist/node_modules/@fds-components"
+    "build": "mkdir -p dist/node_modules/@fds-components && cp -rp node_modules/@fds-components-public dist/node_modules/@fds-components-public"
   },
   "dependencies": {
     "@fds-components-public/fds-gradient-editor": "^1.0.9",
