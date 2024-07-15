@@ -1,12 +1,12 @@
 {
-  "name": "@fds-components/fds-gyre-extensions",
+  "name": "@fds-components-public/fds-gyre-extensions",
   "version": "1.0.2",
   "scripts": {
     "build": "mkdir -p dist/node_modules/@fds-components && cp -rp node_modules/@fds-components dist/node_modules/@fds-components"
   },
   "dependencies": {
-    "@fds-components/fds-gradient-editor": "^1.0.5",
-    "@fds-components/fds-gradient-slider": "^1.0.8"
+    "@fds-components-public/fds-gradient-editor": "^1.0.9",
+    "@fds-components-public/fds-gradient-slider": "^1.0.1"
   }
 }
 
