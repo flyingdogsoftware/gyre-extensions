@@ -1,0 +1,437 @@
+{
+  "moduleName": "App",
+  "filePath": "src/App.svelte",
+  "props": [
+    {
+      "name": "icon",
+      "kind": "let",
+      "description": "example parameter",
+      "type": "string",
+      "value": "\"\"",
+      "isFunction": false,
+      "isFunctionDeclaration": false,
+      "constant": false,
+      "reactive": false
+    },
+    {
+      "name": "getInfo",
+      "kind": "function",
+      "description": "Get information about component",
+      "type": "() => any",
+      "value": "() => {         if (type===\"version\") return version         return fdsHelper.getInfo(type)     }",
+      "isFunction": true,
+      "isFunctionDeclaration": true,
+      "constant": false,
+      "reactive": false
+    }
+  ],
+  "slots": [],
+  "events": [],
+  "typedefs": [],
+  "jsdoc": [
+    {
+      "description": "example parameter",
+      "tags": [
+        {
+          "tag": "type",
+          "name": "",
+          "type": "string",
+          "optional": false,
+          "description": "",
+          "problems": [],
+          "source": [
+            {
+              "number": 12,
+              "source": "     * @type {string}",
+              "tokens": {
+                "start": "     ",
+                "delimiter": "*",
+                "postDelimiter": " ",
+                "tag": "@type",
+                "postTag": " ",
+                "name": "",
+                "postName": "",
+                "type": "{string}",
+                "postType": "",
+                "description": "",
+                "end": "",
+                "lineEnd": ""
+              }
+            },
+            {
+              "number": 13,
+              "source": "     */",
+              "tokens": {
+                "start": "     ",
+                "delimiter": "",
+                "postDelimiter": "",
+                "tag": "",
+                "postTag": "",
+                "name": "",
+                "postName": "",
+                "type": "",
+                "postType": "",
+                "description": "",
+                "end": "*/",
+                "lineEnd": ""
+              }
+            }
+          ]
+        }
+      ],
+      "source": [
+        {
+          "number": 10,
+          "source": "    /**",
+          "tokens": {
+            "start": "    ",
+            "delimiter": "/**",
+            "postDelimiter": "",
+            "tag": "",
+            "postTag": "",
+            "name": "",
+            "postName": "",
+            "type": "",
+            "postType": "",
+            "description": "",
+            "end": "",
+            "lineEnd": ""
+          }
+        },
+        {
+          "number": 11,
+          "source": "     * example parameter",
+          "tokens": {
+            "start": "     ",
+            "delimiter": "*",
+            "postDelimiter": " ",
+            "tag": "",
+            "postTag": "",
+            "name": "",
+            "postName": "",
+            "type": "",
+            "postType": "",
+            "description": "example parameter",
+            "end": "",
+            "lineEnd": ""
+          }
+        },
+        {
+          "number": 12,
+          "source": "     * @type {string}",
+          "tokens": {
+            "start": "     ",
+            "delimiter": "*",
+            "postDelimiter": " ",
+            "tag": "@type",
+            "postTag": " ",
+            "name": "",
+            "postName": "",
+            "type": "{string}",
+            "postType": "",
+            "description": "",
+            "end": "",
+            "lineEnd": ""
+          }
+        },
+        {
+          "number": 13,
+          "source": "     */",
+          "tokens": {
+            "start": "     ",
+            "delimiter": "",
+            "postDelimiter": "",
+            "tag": "",
+            "postTag": "",
+            "name": "",
+            "postName": "",
+            "type": "",
+            "postType": "",
+            "description": "",
+            "end": "*/",
+            "lineEnd": ""
+          }
+        }
+      ],
+      "problems": []
+    },
+    {
+      "description": "Get information about component",
+      "tags": [
+        {
+          "tag": "param",
+          "name": "type",
+          "type": "(\"api\" | \"examples\" | \"css\")",
+          "optional": false,
+          "description": "the info type",
+          "problems": [],
+          "source": [
+            {
+              "number": 17,
+              "source": "     * @param  {(\"api\" | \"examples\" | \"css\")} type the info type",
+              "tokens": {
+                "start": "     ",
+                "delimiter": "*",
+                "postDelimiter": " ",
+                "tag": "@param",
+                "postTag": "  ",
+                "name": "type",
+                "postName": " ",
+                "type": "{(\"api\" | \"examples\" | \"css\")}",
+                "postType": " ",
+                "description": "the info type",
+                "end": "",
+                "lineEnd": ""
+              }
+            },
+            {
+              "number": 18,
+              "source": "     */",
+              "tokens": {
+                "start": "     ",
+                "delimiter": "",
+                "postDelimiter": "",
+                "tag": "",
+                "postTag": "",
+                "name": "",
+                "postName": "",
+                "type": "",
+                "postType": "",
+                "description": "",
+                "end": "*/",
+                "lineEnd": ""
+              }
+            }
+          ]
+        }
+      ],
+      "source": [
+        {
+          "number": 15,
+          "source": "    /**",
+          "tokens": {
+            "start": "    ",
+            "delimiter": "/**",
+            "postDelimiter": "",
+            "tag": "",
+            "postTag": "",
+            "name": "",
+            "postName": "",
+            "type": "",
+            "postType": "",
+            "description": "",
+            "end": "",
+            "lineEnd": ""
+          }
+        },
+        {
+          "number": 16,
+          "source": "     * Get information about component",
+          "tokens": {
+            "start": "     ",
+            "delimiter": "*",
+            "postDelimiter": " ",
+            "tag": "",
+            "postTag": "",
+            "name": "",
+            "postName": "",
+            "type": "",
+            "postType": "",
+            "description": "Get information about component",
+            "end": "",
+            "lineEnd": ""
+          }
+        },
+        {
+          "number": 17,
+          "source": "     * @param  {(\"api\" | \"examples\" | \"css\")} type the info type",
+          "tokens": {
+            "start": "     ",
+            "delimiter": "*",
+            "postDelimiter": " ",
+            "tag": "@param",
+            "postTag": "  ",
+            "name": "type",
+            "postName": " ",
+            "type": "{(\"api\" | \"examples\" | \"css\")}",
+            "postType": " ",
+            "description": "the info type",
+            "end": "",
+            "lineEnd": ""
+          }
+        },
+        {
+          "number": 18,
+          "source": "     */",
+          "tokens": {
+            "start": "     ",
+            "delimiter": "",
+            "postDelimiter": "",
+            "tag": "",
+            "postTag": "",
+            "name": "",
+            "postName": "",
+            "type": "",
+            "postType": "",
+            "description": "",
+            "end": "*/",
+            "lineEnd": ""
+          }
+        }
+      ],
+      "problems": []
+    },
+    {
+      "description": "version of component",
+      "tags": [
+        {
+          "tag": "type",
+          "name": "",
+          "type": "string",
+          "optional": false,
+          "description": "",
+          "problems": [],
+          "source": [
+            {
+              "number": 31,
+              "source": "     * @type {string}",
+              "tokens": {
+                "start": "     ",
+                "delimiter": "*",
+                "postDelimiter": " ",
+                "tag": "@type",
+                "postTag": " ",
+                "name": "",
+                "postName": "",
+                "type": "{string}",
+                "postType": "",
+                "description": "",
+                "end": "",
+                "lineEnd": ""
+              }
+            },
+            {
+              "number": 32,
+              "source": "     */",
+              "tokens": {
+                "start": "     ",
+                "delimiter": "",
+                "postDelimiter": "",
+                "tag": "",
+                "postTag": "",
+                "name": "",
+                "postName": "",
+                "type": "",
+                "postType": "",
+                "description": "",
+                "end": "*/",
+                "lineEnd": ""
+              }
+            }
+          ]
+        }
+      ],
+      "source": [
+        {
+          "number": 29,
+          "source": "    /**",
+          "tokens": {
+            "start": "    ",
+            "delimiter": "/**",
+            "postDelimiter": "",
+            "tag": "",
+            "postTag": "",
+            "name": "",
+            "postName": "",
+            "type": "",
+            "postType": "",
+            "description": "",
+            "end": "",
+            "lineEnd": ""
+          }
+        },
+        {
+          "number": 30,
+          "source": "     * version of component",
+          "tokens": {
+            "start": "     ",
+            "delimiter": "*",
+            "postDelimiter": " ",
+            "tag": "",
+            "postTag": "",
+            "name": "",
+            "postName": "",
+            "type": "",
+            "postType": "",
+            "description": "version of component",
+            "end": "",
+            "lineEnd": ""
+          }
+        },
+        {
+          "number": 31,
+          "source": "     * @type {string}",
+          "tokens": {
+            "start": "     ",
+            "delimiter": "*",
+            "postDelimiter": " ",
+            "tag": "@type",
+            "postTag": " ",
+            "name": "",
+            "postName": "",
+            "type": "{string}",
+            "postType": "",
+            "description": "",
+            "end": "",
+            "lineEnd": ""
+          }
+        },
+        {
+          "number": 32,
+          "source": "     */",
+          "tokens": {
+            "start": "     ",
+            "delimiter": "",
+            "postDelimiter": "",
+            "tag": "",
+            "postTag": "",
+            "name": "",
+            "postName": "",
+            "type": "",
+            "postType": "",
+            "description": "",
+            "end": "*/",
+            "lineEnd": ""
+          }
+        }
+      ],
+      "problems": []
+    },
+    {
+      "description": "delete this CSS:",
+      "tags": [],
+      "source": [
+        {
+          "number": 48,
+          "source": "    /** delete this CSS: */",
+          "tokens": {
+            "start": "    ",
+            "delimiter": "/**",
+            "postDelimiter": " ",
+            "tag": "",
+            "postTag": "",
+            "name": "",
+            "postName": "",
+            "type": "",
+            "postType": "",
+            "description": "delete this CSS: ",
+            "end": "*/",
+            "lineEnd": ""
+          }
+        }
+      ],
+      "problems": []
+    }
+  ],
+  "componentname": "fds-gradient-slider"
+}
