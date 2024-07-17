@@ -4,6 +4,7 @@
     {
       "type": "layer",
       "tag": "fds-image-editor-text",
+      "js_path": "gyre-extensions/node_modules/@fds-components-public/fds-image-editor-text/dist/fds-image-editor-text.js",
       "title": "Text",
       "controlNet": true,
       "quickMask": true,

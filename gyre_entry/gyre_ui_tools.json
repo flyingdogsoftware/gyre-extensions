@@ -4,7 +4,7 @@
     {
       "title": "Auto Matte",
       "tag":"fds-image-editor-sam",
-      "js_path": "node_modules/@fds-components-public/fds-image-editor-sam/dist/fds-image-editor-sam.js",
+      "js_path": "gyre-extensions/node_modules/@fds-components-public/fds-image-editor-sam/dist/fds-image-editor-sam.js",
       "floatingToolBar": true,
       "floatingToolBarWidth": 490,
       "layerTypes": ["image"],
