@@ -2,6 +2,7 @@
   "copyright": "2024 flying dog software",
   "plugins": [
     {
+      "tag": "brush_Caligraphy",
       "type": "brush",
       "title": "Caligraphy Brush",
       "images": {
