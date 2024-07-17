@@ -1,0 +1,19 @@
+{
+  "copyright": "2024 flying dog software",
+  "plugins": [
+    {
+      "type": "layer",
+      "tag": "fds-image-editor-text",
+      "title": "Text",
+      "controlNet": true,
+      "quickMask": true,
+      "moveTool": true,
+      "convertToImage": true,
+      "letter": "T",
+      "images": {
+        "largeIcon": "/node_modules/@fds-components/fds-image-editor-text/dist//img/text_source.jpg",
+        "largeIconHover": "/node_modules/@fds-components/fds-image-editor-text/dist//img/text_result.jpg"
+      }
+    }
+  ]
+}

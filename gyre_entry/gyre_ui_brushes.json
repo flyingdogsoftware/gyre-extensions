@@ -1,0 +1,46 @@
+{
+  "copyright": "2024 flying dog software",
+  "plugins": [
+    {
+      "type": "brush",
+      "title": "Caligraphy Brush",
+      "images": {
+        "largeIcon": "appdata/brushes/img/brush_Caligraphy2.jpg"
+      },
+      "form": {
+        "spring": {
+          "label": "Spring",
+          "type": "slider",
+          "from": 1,
+          "to": 1000,
+          "stepCount": 1,
+          "default": 500
+        },
+        "friction": {
+          "label": "Friction",
+          "type": "slider",
+          "from": 1,
+          "to": 1000,
+          "stepCount": 1,
+          "default": 500
+        },
+        "splitNum": {
+          "label": "Split number",
+          "type": "slider",
+          "from": 1,
+          "to": 20,
+          "stepCount": 1,
+          "default": 10
+        },
+        "diff": {
+          "label": "Diff",
+          "type": "slider",
+          "from": 1,
+          "to": 20,
+          "stepCount": 1,
+          "default": 3
+        }
+      }
+    }
+  ]
+}
