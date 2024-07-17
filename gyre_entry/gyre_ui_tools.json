@@ -2,6 +2,7 @@
   "copyright": "2024 flying dog software",
   "plugins": [
     {
+      "type": "tool",
       "title": "Auto Matte",
       "tag":"fds-image-editor-sam",
       "js_path": "gyre-extensions/node_modules/@fds-components-public/fds-image-editor-sam/dist/fds-image-editor-sam.js",
@@ -43,3 +44,5 @@
     }
   ]
 }
+
+
