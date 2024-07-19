@@ -7,7 +7,7 @@
       "type": "brush",
       "title": "Caligraphy Brush",
       "images": {
-        "largeIcon": "gyre_entry/node_modules/@fds-components-public/fds-brush-caligraphy/dist/brush_Caligraphy2.jpg"
+        "largeIcon": "gyre-extensions/node_modules/@fds-components-public/fds-brush-caligraphy/dist/brush_Caligraphy2.jpg"
       },
       "form": {
         "spring": {

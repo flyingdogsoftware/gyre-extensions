@@ -12,8 +12,8 @@
       "convertToImage": true,
       "letter": "T",
       "images": {
-        "largeIcon": "/node_modules/@fds-components-public/fds-image-editor-text/dist//img/text_source.jpg",
-        "largeIconHover": "/node_modules/@fds-components-public/fds-image-editor-text/dist//img/text_result.jpg"
+        "largeIcon": "gyre-extensions/node_modules/@fds-components-public/fds-image-editor-text/dist//img/text_source.jpg",
+        "largeIconHover": "gyre-extensions/node_modules/@fds-components-public/fds-image-editor-text/dist//img/text_result.jpg"
       }
 
     }
