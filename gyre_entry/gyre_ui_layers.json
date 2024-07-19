@@ -4,7 +4,7 @@
     {
       "type": "layer",
       "tag": "fds-image-editor-text",
-      "js_path": "gyre-extensions/node_modules/@fds-components-public/fds-image-editor-text/dist/fds-image-editor-text.js",
+      "js_path": "node_modules/@fds-components-public/fds-image-editor-text/dist/fds-image-editor-text.js",
       "title": "Text",
       "controlNet": true,
       "quickMask": true,
@@ -12,8 +12,8 @@
       "convertToImage": true,
       "letter": "T",
       "images": {
-        "largeIcon": "gyre-extensions/node_modules/@fds-components-public/fds-image-editor-text/dist//img/text_source.jpg",
-        "largeIconHover": "gyre-extensions/node_modules/@fds-components-public/fds-image-editor-text/dist//img/text_result.jpg"
+        "largeIcon": "node_modules/@fds-components-public/fds-image-editor-text/dist//img/text_source.jpg",
+        "largeIconHover": "node_modules/@fds-components-public/fds-image-editor-text/dist//img/text_result.jpg"
       }
 
     }

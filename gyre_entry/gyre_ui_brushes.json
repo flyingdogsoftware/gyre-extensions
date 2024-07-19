@@ -3,11 +3,11 @@
   "plugins": [
     {
       "tag": "brush_Caligraphy",
-      "js_path": "gyre-extensions/node_modules/@fds-components-public/fds-brush-caligraphy/dist/brush_Caligraphy.js",
+      "js_path": "node_modules/@fds-components-public/fds-brush-caligraphy/dist/brush_Caligraphy.js",
       "type": "brush",
       "title": "Caligraphy Brush",
       "images": {
-        "largeIcon": "gyre-extensions/node_modules/@fds-components-public/fds-brush-caligraphy/dist/brush_Caligraphy2.jpg"
+        "largeIcon": "node_modules/@fds-components-public/fds-brush-caligraphy/dist/brush_Caligraphy2.jpg"
       },
       "form": {
         "spring": {
