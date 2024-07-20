@@ -2,7 +2,7 @@
   "copyright": "2024 flying dog software",
   "plugins": [
     {
-      "tag": "brush_Caligraphy",
+      "className": "brush_Caligraphy",
       "js_path": "node_modules/@fds-components-public/fds-brush-caligraphy/dist/brush_Caligraphy.js",
       "type": "brush",
       "title": "Caligraphy Brush",
