@@ -1,70 +1,47 @@
-# Gyre Extensions
 
-Welcome to the Gyre Extensions repository! Here, you'll find several examples of extension systems compatible with the Gyre middleware.
+# Gyre Extensions 🌟🛠️✨
 
-## Featured Extensions
+[![Gyre SDK](https://img.shields.io/badge/Gyre%20SDK-Explore-blue?style=for-the-badge&logo=github)](https://flyingdogsoftware.github.io/gyre-sdk/)
+[![Gyre Extensions](https://img.shields.io/badge/Gyre%20Extensions-Repository-blue?style=for-the-badge&logo=github)](https://github.com/flyingdogsoftware/gyre-extensions/)
+[![Gyre for ComfyUI](https://img.shields.io/badge/Gyre%20for%20ComfyUI-Explore-blue?style=for-the-badge&logo=github)](https://github.com/flyingdogsoftware/gyre_for_comfyui)
+[![Gyre](https://img.shields.io/badge/Gyre-Website-orange?style=for-the-badge&logo=internet-explorer)](https://gyre.ai)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/HyaNtnU5Pw)
 
-- **Gradient-Editor**: A user interface component for editing color gradients.
-- **Gradient-Slider**: A slider component that supports two handles. This slider is capable of splitting the value into multiple ComfyUI values for each handle (left and right).
+<p align="center">
+  <img src="https://gyre.ai/images/logo.png" alt="Gyre Logo" width="150px">
+</p>
 
-## How It Works
+## Welcome to the Gyre Extensions Repository!
 
-The Gyre middleware scans all other extension folders for a subfolder named `gyre_entry`. Installing a Gyre extension follows the same process as any other ComfyUI extension, whether through the Manager, `git clone`, or unzipping. These can be added to existing ComfyUI extensions.
+Here, you'll find several examples of plugins compatible with Gyre, designed to enhance and extend its functionality.
 
-### Supported Extension Types
+### Featured Plugins Included in This Repository:
 
-- **UI Elements**: These will appear in the "Add Element" menu of the form editor in the middleware.
-- **Custom Layer Types**: Capable of hosting complex applications. Our internal 3D or Pose layers use this type of extension.
-- **Custom Brushes**
-- **Other Plugins**
+- **[Gradient-Editor](https://github.com/flyingdogsoftware/fds-gradient-editor):** A user interface component for editing color gradients. Perfect for creating and adjusting color transitions in your designs.
 
-Currently, UI elements are fully supported, with custom layers and brushes expected to be supported soon, as they utilize a similar mechanism.
+- **[Gradient-Slider](https://github.com/flyingdogsoftware/fds-gradient-slider):** A slider component that supports two handles. This slider is capable of splitting the value into multiple ComfyUI values for each handle (left and right), providing precise control over gradient adjustments.
 
-The main Gyre application loads these extensions through an initialization script from the ComfyUI server, which calls each extension's initialization scripts. Thus, the ComfyUI installation and extension mechanism are applicable, even though they are hosted on different servers.
+- **[Image-Editor-Text](https://github.com/flyingdogsoftware/fds-image-editor-text):** A tools plugin for the Gyre application, allowing for the addition and manipulation of text within the image editor.
 
-## Setting Up Your Own Extension
+- **[Image-Editor-SAM](https://github.com/flyingdogsoftware/fds-image-editor-sam):** The SAM Tools Plugin for the Gyre application, offering specialized tools for advanced image editing capabilities.
 
-1. Create your folder under `custom_nodes` like any other ComfyUI extension.
-2. Add a subfolder `gyre_entry` and include a JavaScript file named `gyre_init.js`. Load your extensions through this file.
-3. Define custom elements with their own tags using the Shadow DOM, ensuring they are isolated from the main application. Use a unique prefix to avoid conflicts (e.g., "yourname-yourcompany-gradient-slider" instead of "gradient-slider").
-4. Include files like `gyre_ui_components.json`, `layers_components.json`, or `brushes.json` in the `gyre_entry` folder.
-5. Install node packages necessary for your custom tags.
+- **[Brush-Calligraphy](https://github.com/flyingdogsoftware/brush_Caligraphy):** A calligraphy brush plugin for Gyre, enabling beautiful, artistic calligraphy strokes within the image editor.
 
-### Configuration of UI elements (`gyre_ui_components.json`)
+## Gyre SDK
 
-Check out our example that provides two custom UI elements: [Insert URL here]
+The [Gyre SDK](https://flyingdogsoftware.github.io/gyre-sdk/) is the foundation for developing plugins for the Gyre application. It provides comprehensive documentation and examples to help you create custom plugins that integrate seamlessly with Gyre.
 
-This file should define:
-- The tag name.
-- A descriptive name for the element.
-- A list of parameters for the tag, with inputs in the form editor requiring "name", "value", and "label".
-- Parameters may support inputs of types "text" or "textarea".
-- Attributes like `split_value_num` and `split_value_type` allow splitting the "value" parameter into multiple fields.
+### Developing Plugins
 
-#### Example
+To get started with developing plugins for Gyre, refer to the [Gyre SDK](https://flyingdogsoftware.github.io/gyre-sdk/) documentation. The SDK provides all the necessary tools and guidelines to help you build robust and efficient plugins.
 
-```html
-<fds-gradient-slider name="gradient" value="0;1.0"></fds-gradient-slider>
-```
+### Example Plugins
 
-Using split_value_num=2 and split_value_type=number, the above example will provide:
+The plugins featured in this repository are prime examples mentioned in the SDK. These examples can serve as a reference for understanding how to develop and integrate plugins with the Gyre application. 
 
-- A field "gradient" with the value string "0;1.0".
-- Field "gradient_0" with the float value 0.
-- Field "gradient_1" with the float value 1.0.
-- These fields are utilized in Gyre mappings.
+## Join Our Developer Community
 
+Want to contribute or just connect with other developers working on Gyre projects? Join our developer group on Discord!
 
-Feel free to adjust the example link and any specifics to better match your actual content.
-
-#### Environment 
-
-In globalThis.gyre an extension can have access to a global extension API:
-
-- `loadScript` method for loading scripts
-- `paletteValues` access to UI values of the tools (e.g. inpainting brush size).  
-- `currentLayer` for access to the selected layer. 
-- `layers` layer data structure (can have groups/sub-folders)
-- `formElements` form elements of open form including current values
-- `workflowId` unique internal ID of the current workflow
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/HyaNtnU5Pw)
 
