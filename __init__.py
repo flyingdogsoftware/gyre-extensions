@@ -2,10 +2,6 @@ import os
 
 
 from .nodes import (
-
-    JSONBoxes,
-    JSONPoints,
-    SAMMaskFromPoints,
     JSONPointsSAMParameters,
     JSONBoxesToSEGS,
 )
@@ -13,9 +9,6 @@ from .nodes import (
 
 
 NODE_CLASS_MAPPINGS = {
-    "MatteAnything_JSONDinoBoxes": JSONBoxes,
-    "MatteAnything_JSONBoxes To SEGS": JSONBoxesToSEGS,
-    "MatteAnything_JSONPoints": JSONPoints,
-    "MatteAnything_JSONPoints SAM Parameters": JSONPointsSAMParameters,
-    "MatteAnything_SAMMaskFromPoints": SAMMaskFromPoints,
+    "Gyre_JSONBoxes To SEGS": JSONBoxesToSEGS,
+    "Gyre_JSONPoints SAM Parameters": JSONPointsSAMParameters,
 }

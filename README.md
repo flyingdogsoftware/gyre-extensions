@@ -27,6 +27,16 @@ Here, you'll find several examples of plugins compatible with Gyre, designed to 
 
 - **[Brush-Calligraphy](https://github.com/flyingdogsoftware/brush_Caligraphy):** A calligraphy brush plugin for Gyre, enabling beautiful, artistic calligraphy strokes within the image editor.
 
+### Gyre Default Workflows Included in This Repository:
+
+- **fds-image-editor-sam box**: Used by Image-Editor-SAM plugin Get object matte mask by SAM rectangular selection.
+
+- **fds-image-editor-sam points**:Used by Image-Editor-SAM plugin Get object matte mask by SAM point selection.
+
+### ComfyUI Nodes Included in This Repository:
+
+- **Gyre_JSONBoxes To SEGS** and **Gyre_JSONPoints SAM Parameters**: both are used in workflows above for converting JSON data from user interface (SAM tool plugin) to internal data structures used by SAM nodes.
+
 ## Gyre SDK
 
 The [Gyre SDK](https://flyingdogsoftware.github.io/gyre-sdk/) is the foundation for developing plugins for the Gyre application. It provides comprehensive documentation and examples to help you create custom plugins that integrate seamlessly with Gyre.
