@@ -25,6 +25,8 @@ Here, you'll find several examples of plugins compatible with Gyre, designed to 
 
 - **[Image-Editor-SAM](https://github.com/flyingdogsoftware/fds-image-editor-sam):** The SAM Tools Plugin for the Gyre application, offering specialized tools for advanced image editing capabilities.
 
+- **[Image-Editor-Compare](https://github.com/flyingdogsoftware/fds-image-editor-compare):** The Layer Compare Tool Plugin for the Gyre application.
+
 - **[Brush-Calligraphy](https://github.com/flyingdogsoftware/brush_Caligraphy):** A calligraphy brush plugin for Gyre, enabling beautiful, artistic calligraphy strokes within the image editor.
 
 ### Gyre Default Workflows Included in This Repository:
