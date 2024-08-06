@@ -20,6 +20,7 @@
       "type": "layer",
       "tag": "fds-image-editor-adjustment-layer",
       "title": "Adjustment Layer",
+      "js_path": "node_modules/@fds-components-public/fds-image-editor-adjustment-layer/dist/fds-image-editor-adjustment-layer.js",
       "controlNet": false,
       "quickMask": false,
       "moveTool": false,
