@@ -21,11 +21,13 @@ Here, you'll find several examples of plugins compatible with Gyre, designed to 
 
 - **[Gradient-Slider](https://github.com/flyingdogsoftware/fds-gradient-slider):** A slider component that supports two handles. This slider is capable of splitting the value into multiple ComfyUI values for each handle (left and right), providing precise control over gradient adjustments.
 
-- **[Image-Editor-Text](https://github.com/flyingdogsoftware/fds-image-editor-text):** A tools plugin for the Gyre application, allowing for the addition and manipulation of text within the image editor.
+- **[Adjustment Layer](https://github.com/flyingdogsoftware/fds-image-editor-adjustment-layer):** World's first AI (and non-AI) adjustment layer in an image editing application with full support of any ComfyUI workflow
 
-- **[Image-Editor-SAM](https://github.com/flyingdogsoftware/fds-image-editor-sam):** The SAM Tools Plugin for the Gyre application, offering specialized tools for advanced image editing capabilities.
+- **[Text Layer](https://github.com/flyingdogsoftware/fds-image-editor-text):** A tools plugin for the Gyre application, allowing for the addition and manipulation of text within the image editor.
 
-- **[Image-Editor-Compare](https://github.com/flyingdogsoftware/fds-image-editor-compare):** The Layer Compare Tool Plugin for the Gyre application.
+- **[SAM Tool](https://github.com/flyingdogsoftware/fds-image-editor-sam):** The SAM Tools Plugin for the Gyre application, offering specialized tools for advanced image editing capabilities.
+
+- **[Compare Tool](https://github.com/flyingdogsoftware/fds-image-editor-compare):** The Layer Compare Tool Plugin for the Gyre application.
 
 - **[Brush-Calligraphy](https://github.com/flyingdogsoftware/brush_Caligraphy):** A calligraphy brush plugin for Gyre, enabling beautiful, artistic calligraphy strokes within the image editor.
 

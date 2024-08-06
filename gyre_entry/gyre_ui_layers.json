@@ -12,10 +12,28 @@
       "convertToImage": true,
       "letter": "T",
       "images": {
-        "largeIcon": "node_modules/@fds-components-public/fds-image-editor-text/dist//img/text_source.jpg",
+        "largeIcon": "node_modules/@fds-components-public/fds-image-editor-text/dist/img/text_source.jpg",
         "largeIconHover": "node_modules/@fds-components-public/fds-image-editor-text/dist//img/text_result.jpg"
       }
-
-    }
+    },
+    {
+      "type": "layer",
+      "tag": "fds-image-editor-adjustment-layer",
+      "title": "Adjustment Layer",
+      "controlNet": false,
+      "quickMask": false,
+      "moveTool": false,
+      "convertToImage": true,
+      "letter": "A",
+      "icons": {
+        "icon": {
+            "body": "<path d=\"M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16\" transform=\"rotate(-135 8 8)\"/>"
+        }
+      },
+      "images": {
+        "largeIcon": "node_modules/@fds-components-public/fds-image-editor-adjustment-layer/dist/img/adjustment_before.webp",
+        "largeIconHover": "node_modules/@fds-components-public/fds-image-editor-adjustment-layer/dist/img/adjustment_after.webp"
+      }      
+    }    
   ]
 }

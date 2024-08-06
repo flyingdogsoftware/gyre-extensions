@@ -3,8 +3,9 @@
     "@fds-components-public/fds-brush-caligraphy": "^1.0.2",
     "@fds-components-public/fds-gradient-editor": "^1.0.10",
     "@fds-components-public/fds-gradient-slider": "^1.0.4",
+    "@fds-components-public/fds-image-editor-adjustment-layer": "^1.0.3",
     "@fds-components-public/fds-image-editor-compare": "^1.0.2",
-    "@fds-components-public/fds-image-editor-sam": "^1.0.4",
+    "@fds-components-public/fds-image-editor-sam": "^1.0.5",
     "@fds-components-public/fds-image-editor-text": "^1.0.7"
   }
 }
