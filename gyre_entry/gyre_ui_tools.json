@@ -12,7 +12,7 @@
       "tools": [
         {
           "name": "rect",
-          "title": "Rectengular Selection",
+          "title": "Rectangular Selection",
           "icon": "fds-image-editor-sam-rect",
           "floatingToolBarWidth": 440
         },
