@@ -10,6 +10,7 @@
       "quickMask": true,
       "moveTool": true,
       "convertToImage": true,
+      "opacity": true,
       "letter": "T",
       "images": {
         "largeIcon": "node_modules/@fds-components-public/fds-image-editor-text/dist/img/text_source.jpg",
