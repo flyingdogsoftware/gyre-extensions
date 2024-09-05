@@ -15,6 +15,10 @@
 
 The **fds-image-editor-text** is a tools plugin for the Gyre application.
 
+## Update
+
+Now using new SDK V 1.1 supporting Clipping Masks.
+
 ## Installation
 
 ```sh
@@ -27,7 +31,7 @@ npm i @fds-components-public/fds-image-editor-text
 npm run dev
 ```
 
-Navigate to: [http://localhost:4010](http://localhost:4010)
+Navigate to: [http://localhost:4000](http://localhost:4000)
 
 ### Props
 

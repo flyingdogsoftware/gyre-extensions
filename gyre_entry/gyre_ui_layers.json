@@ -25,6 +25,7 @@
       "controlNet": false,
       "quickMask": false,
       "moveTool": false,
+      "maskLayer": true,
       "convertToImage": true,
       "letter": "A",
       "icons": {
