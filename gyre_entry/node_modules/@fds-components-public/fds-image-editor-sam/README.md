@@ -14,11 +14,17 @@
 
 The **fds-image-editor-sam** is a SAM Tools Plugin for the Gyre application.
 
+## Update
+
+Now support for new SDK V 1.1 creating linked object layer mask.
+
 ## Installation
 
 ```sh
 npm i @fds-components-public/fds-image-editor-sam
 ```
+
+Check your ComfyUI server URL and change it in index.html
 
 ## Usage in Test Environment
 
